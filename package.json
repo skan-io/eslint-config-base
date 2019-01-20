@@ -1,5 +1,5 @@
 {
-  "name": "@skan/eslint-config-base",
+  "name": "@skan-io/eslint-config-base",
   "version": "0.0.0-semantically-released",
   "description": "Base eslint config for latest ecma script standards (stage-2)",
   "main": "index.js",
@@ -22,6 +22,11 @@
     "url": "https://github.com/skan-io/eslint-config-base/issues"
   },
   "homepage": "https://github.com/skan-io/eslint-config-base#readme",
+  "peerDependencies": {
+    "eslint": ">= 5",
+    "babel-eslint": "^10.0.1",
+    "eslint-plugin-babel": "^5.3.0"
+  },
   "devDependencies": {
     "babel-eslint": "10.0.1",
     "commitizen": "3.0.5",
