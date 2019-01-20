@@ -1,0 +1,42 @@
+{
+  "name": "@skan/eslint-config-base",
+  "version": "0.0.0-semantically-released",
+  "description": "Base eslint config for latest ecma script standards (stage-2)",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint -c index.js .",
+    "cd": "run release",
+    "release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skan-io/eslint-config-base.git"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": "Skan Admin <admin@skan.io> (https://www.skan.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skan-io/eslint-config-base/issues"
+  },
+  "homepage": "https://github.com/skan-io/eslint-config-base#readme",
+  "devDependencies": {
+    "babel-eslint": "10.0.1",
+    "commitizen": "3.0.5",
+    "cz-conventional-changelog": "2.1.0",
+    "eslint": "5.12.1",
+    "eslint-plugin-babel": "5.3.0",
+    "npx-run": "2.1.2",
+    "semantic-release": "15.13.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
