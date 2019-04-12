@@ -27,7 +27,8 @@ module.exports = {
     Symbol: true,
     Promise: true,
     Reflect: true,
-    Uint8ClampedArray: true
+    Uint8ClampedArray: true,
+    module: true
   },
   overrides: [{
     files: ['*.test.js'],
